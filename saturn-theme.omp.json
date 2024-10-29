@@ -377,7 +377,7 @@
                     "foreground": "#000000",
                     "leading_diamond": "\ue0b2",
                     "style": "diamond",
-                    "template": "\ue7a8 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
+                    "template": " {{ if .Error }}{{ else }}\ue7a8 {{ .Full }}{{ end }} ",
                     "trailing_diamond": "<transparent,#ffffff>\ue0b2</>",
                     "type": "rust"
                 },
