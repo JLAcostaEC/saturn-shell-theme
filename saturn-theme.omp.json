@@ -41,7 +41,7 @@
                     "properties": {
                         "style": "mixed",
                         "home_icon": "\ueb06 ",
-                        "folder_separator_icon": "<#1d768a>\ue0b1</> ",
+                        "folder_separator_icon": "<#d6b143>\ue0b1</> ",
                         "folder_icon": "\ueaf7 ",
                         "mapped_locations": {
                             "D:": "\ueb06 "
