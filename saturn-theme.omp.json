@@ -44,7 +44,11 @@
                         "folder_separator_icon": "<#d6b143>\ue0b1</> ",
                         "folder_icon": "\ueaf7 ",
                         "mapped_locations": {
-                            "D:": "\ueb06 "
+                            "C:": "\uf0c7 ",
+                            "D:": "\uf0c7 ",
+                            "E:": "\uf0c7 ",
+                            "F:": "\uf0c7 ",
+                            "G:": "\uf0c7 "
                         }
                     },
                     "style": "diamond",
