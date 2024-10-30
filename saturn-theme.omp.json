@@ -37,11 +37,10 @@
                 {
                     "background": "#19181a",
                     "foreground": "#d6b143",
-                    "leading_diamond": "\ue0b6",
                     "properties": {
                         "style": "mixed",
                         "home_icon": "\ueb06 ",
-                        "folder_separator_icon": "<#d6b143>\ue0b1</> ",
+                        "folder_separator_icon": "\ue0b1 ",
                         "folder_icon": "\ueaf7 ",
                         "mapped_locations": {
                             "C:": "\uf0c7 ",
@@ -52,7 +51,8 @@
                         }
                     },
                     "style": "diamond",
-                    "template": "{{ path .Path .Location }} ",
+                    "template": "{{ path .Path .Location }}",
+                    "leading_diamond": "\ue0b6",
                     "trailing_diamond": "\ue0b4",
                     "type": "path"
                 },
@@ -127,7 +127,7 @@
                 },
                 {
                     "background": "#19181a",
-                    "foreground": "#3cb431",
+                    "foreground": "#d6b143",
                     "leading_diamond": " \ue0b6",
                     "properties": {
                         "style": "roundrock",
@@ -139,7 +139,7 @@
                 },
                 {
                     "background": "#19181a",
-                    "foreground": "#3cb431",
+                    "foreground": "#d6b143",
                     "style": "diamond",
                     "template": "- \udb80\udf5b {{ round .PhysicalPercentUsed .Precision }}%",
                     "type": "sysinfo",
