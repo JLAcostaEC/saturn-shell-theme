@@ -7,7 +7,6 @@
             "segments": [
                 {
                     "properties": {
-                        "cache_duration": "none",
                         "mapped_shell_names": {
                             "bash": "\uebca",
                             "cmd": "\uebc4",
@@ -15,6 +14,9 @@
                             "pwsh": "\uebc7",
                             "zsh": "\udb82\udf21"
                         }
+                    },
+                    "cache": {
+                        "duration": "1h"
                     },
                     "leading_diamond": "\ue0b6",
                     "trailing_diamond": "\ue0b4",
@@ -26,7 +28,6 @@
                 },
                 {
                     "properties": {
-                        "cache_duration": "none",
                         "windows": "\uf17a "
                     },
                     "leading_diamond": "\ue0b6",
@@ -35,11 +36,13 @@
                     "foreground": "#d6b143",
                     "background": "#19181a",
                     "type": "os",
-                    "style": "diamond"
+                    "style": "diamond",
+                    "cache": {
+                        "duration": "1h"
+                    }
                 },
                 {
                     "properties": {
-                        "cache_duration": "none",
                         "folder_icon": "\ueaf7 ",
                         "folder_separator_icon": "\ue0b1 ",
                         "home_icon": "\ueb06 ",
@@ -52,6 +55,9 @@
                         },
                         "style": "mixed"
                     },
+                    "cache": {
+                        "duration": "none"
+                    },
                     "leading_diamond": "\ue0b6",
                     "trailing_diamond": "\ue0b4",
                     "template": "{{ path .Path .Location }}",
@@ -63,10 +69,12 @@
                 {
                     "properties": {
                         "branch_max_length": 25,
-                        "cache_duration": "none",
                         "fetch_stash_count": true,
                         "fetch_status": true,
                         "fetch_upstream_icon": true
+                    },
+                    "cache": {
+                        "duration": "1h"
                     },
                     "leading_diamond": "\ue0b6",
                     "trailing_diamond": "\ue0b4",
@@ -83,8 +91,8 @@
                     ]
                 },
                 {
-                    "properties": {
-                        "cache_duration": "none"
+                    "cache": {
+                        "duration": "5m"
                     },
                     "leading_diamond": " \ue0b6",
                     "trailing_diamond": "\ue0b4 ",
@@ -97,11 +105,13 @@
                 },
                 {
                     "properties": {
-                        "cache_duration": "none",
                         "display_mode": "files",
                         "extensions": ["svelte.config.js"],
                         "fetch_package_manager": false,
                         "fetch_version": false
+                    },
+                    "cache": {
+                        "duration": "1h"
                     },
                     "leading_diamond": "\ue0b6",
                     "trailing_diamond": "\ue0b4 ",
@@ -119,13 +129,15 @@
             "segments": [
                 {
                     "properties": {
-                        "cache_duration": "none",
                         "display_mode": "files",
                         "fetch_package_manager": true,
                         "fetch_version": true,
                         "npm_icon": "<#FE4A49>\ue71e npm</> ",
                         "pnpm_icon": "<#ffc400>\udb80\udec1 pnpm</> ",
                         "yarn_icon": "<#44FFD2>\uf487 yarn</> "
+                    },
+                    "cache": {
+                        "duration": "1h"
                     },
                     "leading_diamond": " \ue0b6",
                     "trailing_diamond": "\ue0b4 ",
@@ -137,9 +149,11 @@
                 },
                 {
                     "properties": {
-                        "cache_duration": "none",
                         "style": "roundrock",
                         "threshold": 0
+                    },
+                    "cache": {
+                        "duration": "none"
                     },
                     "leading_diamond": " \ue0b6",
                     "template": "\udb81\udd1f {{ .FormattedMs }} ",
@@ -151,10 +165,12 @@
                 {
                     "properties": {
                         "branch_max_length": 25,
-                        "cache_duration": "none",
                         "fetch_stash_count": true,
                         "fetch_status": true,
                         "fetch_upstream_icon": true
+                    },
+                    "cache": {
+                        "duration": "none"
                     },
                     "trailing_diamond": "\ue0b4",
                     "template": "- \udb80\udf5b {{ round .PhysicalPercentUsed .Precision }}%",
@@ -164,8 +180,8 @@
                     "style": "diamond"
                 },
                 {
-                    "properties": {
-                        "cache_duration": "none"
+                    "cache": {
+                        "duration": "1h"
                     },
                     "leading_diamond": "\ue0b2",
                     "trailing_diamond": "<transparent,#ffffff>\ue0b2</>",
@@ -176,8 +192,8 @@
                     "style": "diamond"
                 },
                 {
-                    "properties": {
-                        "cache_duration": "none"
+                    "cache": {
+                        "duration": "1h"
                     },
                     "leading_diamond": "\ue0b2",
                     "trailing_diamond": "<transparent,#565656>\ue0b2</>",
@@ -188,8 +204,8 @@
                     "style": "diamond"
                 },
                 {
-                    "properties": {
-                        "cache_duration": "none"
+                    "cache": {
+                        "duration": "1h"
                     },
                     "leading_diamond": "\ue0b2",
                     "trailing_diamond": "<transparent,#ffffff>\ue0b2</>",
@@ -200,8 +216,8 @@
                     "style": "diamond"
                 },
                 {
-                    "properties": {
-                        "cache_duration": "none"
+                    "cache": {
+                        "duration": "1h"
                     },
                     "leading_diamond": "\ue0b2",
                     "trailing_diamond": "<transparent,#ffffff>\ue0b2</>",
@@ -212,8 +228,8 @@
                     "style": "diamond"
                 },
                 {
-                    "properties": {
-                        "cache_duration": "none"
+                    "cache": {
+                        "duration": "1h"
                     },
                     "leading_diamond": "\ue0b2",
                     "trailing_diamond": "<transparent,#5a7a94>\ue0b2</>",
@@ -224,8 +240,8 @@
                     "style": "diamond"
                 },
                 {
-                    "properties": {
-                        "cache_duration": "none"
+                    "cache": {
+                        "duration": "1h"
                     },
                     "leading_diamond": "\ue0b2",
                     "trailing_diamond": "<transparent,#000000>\ue0b2</>",
@@ -236,8 +252,8 @@
                     "style": "diamond"
                 },
                 {
-                    "properties": {
-                        "cache_duration": "none"
+                    "cache": {
+                        "duration": "1h"
                     },
                     "leading_diamond": "\ue0b2",
                     "trailing_diamond": "<transparent,#ffffff>\ue0b2</>",
@@ -248,8 +264,8 @@
                     "style": "diamond"
                 },
                 {
-                    "properties": {
-                        "cache_duration": "none"
+                    "cache": {
+                        "duration": "1h"
                     },
                     "leading_diamond": "\ue0b2",
                     "trailing_diamond": "<transparent,#ffffff>\ue0b2</>",
@@ -260,8 +276,8 @@
                     "style": "diamond"
                 },
                 {
-                    "properties": {
-                        "cache_duration": "none"
+                    "cache": {
+                        "duration": "1h"
                     },
                     "leading_diamond": "\ue0b2",
                     "trailing_diamond": "<transparent,#d2d2d2>\ue0b2</>",
@@ -272,8 +288,8 @@
                     "style": "diamond"
                 },
                 {
-                    "properties": {
-                        "cache_duration": "none"
+                    "cache": {
+                        "duration": "1h"
                     },
                     "leading_diamond": "\ue0b2",
                     "trailing_diamond": "<transparent,#e1e8e9>\ue0b2</>",
@@ -284,8 +300,8 @@
                     "style": "diamond"
                 },
                 {
-                    "properties": {
-                        "cache_duration": "none"
+                    "cache": {
+                        "duration": "1h"
                     },
                     "leading_diamond": "\ue0b2",
                     "trailing_diamond": "<transparent,#0e0e0e>\ue0b2</>",
@@ -296,8 +312,8 @@
                     "style": "diamond"
                 },
                 {
-                    "properties": {
-                        "cache_duration": "none"
+                    "cache": {
+                        "duration": "1h"
                     },
                     "leading_diamond": "\ue0b2",
                     "trailing_diamond": "<transparent,#06A4CE>\ue0b2</>",
@@ -308,8 +324,8 @@
                     "style": "diamond"
                 },
                 {
-                    "properties": {
-                        "cache_duration": "none"
+                    "cache": {
+                        "duration": "1h"
                     },
                     "leading_diamond": "\ue0b2",
                     "trailing_diamond": "<transparent,#ffffff>\ue0b2</>",
@@ -320,8 +336,8 @@
                     "style": "diamond"
                 },
                 {
-                    "properties": {
-                        "cache_duration": "none"
+                    "cache": {
+                        "duration": "1h"
                     },
                     "leading_diamond": "\ue0b2",
                     "trailing_diamond": "<transparent,#100e23>\ue0b2</>",
@@ -332,8 +348,8 @@
                     "style": "diamond"
                 },
                 {
-                    "properties": {
-                        "cache_duration": "none"
+                    "cache": {
+                        "duration": "1h"
                     },
                     "leading_diamond": "\ue0b2",
                     "trailing_diamond": "<transparent,#ffffff>\ue0b2</>",
@@ -344,8 +360,8 @@
                     "style": "diamond"
                 },
                 {
-                    "properties": {
-                        "cache_duration": "none"
+                    "cache": {
+                        "duration": "1h"
                     },
                     "leading_diamond": "\ue0b2",
                     "trailing_diamond": "<transparent,#945bb3>\ue0b2</>",
@@ -356,8 +372,8 @@
                     "style": "diamond"
                 },
                 {
-                    "properties": {
-                        "cache_duration": "none"
+                    "cache": {
+                        "duration": "1h"
                     },
                     "leading_diamond": "\ue0b2",
                     "trailing_diamond": "<transparent,#906cff>\ue0b2</>",
@@ -368,8 +384,8 @@
                     "style": "diamond"
                 },
                 {
-                    "properties": {
-                        "cache_duration": "none"
+                    "cache": {
+                        "duration": "1h"
                     },
                     "leading_diamond": "\ue0b2",
                     "trailing_diamond": "<transparent,#316ce4>\ue0b2</>",
@@ -380,8 +396,8 @@
                     "style": "diamond"
                 },
                 {
-                    "properties": {
-                        "cache_duration": "none"
+                    "cache": {
+                        "duration": "1h"
                     },
                     "leading_diamond": "\ue0b2",
                     "trailing_diamond": "<transparent,#ffffff>\ue0b2</>",
@@ -392,8 +408,8 @@
                     "style": "diamond"
                 },
                 {
-                    "properties": {
-                        "cache_duration": "none"
+                    "cache": {
+                        "duration": "1h"
                     },
                     "leading_diamond": "\ue0b2",
                     "trailing_diamond": "<transparent,#6488c0>\ue0b2</>",
@@ -404,8 +420,8 @@
                     "style": "diamond"
                 },
                 {
-                    "properties": {
-                        "cache_duration": "none"
+                    "cache": {
+                        "duration": "1h"
                     },
                     "leading_diamond": "\ue0b2",
                     "trailing_diamond": "<transparent,#41436d>\ue0b2</>",
@@ -416,8 +432,8 @@
                     "style": "diamond"
                 },
                 {
-                    "properties": {
-                        "cache_duration": "none"
+                    "cache": {
+                        "duration": "1h"
                     },
                     "leading_diamond": "\ue0b2",
                     "trailing_diamond": "<transparent,#787CB5>\ue0b2</>",
@@ -428,8 +444,8 @@
                     "style": "diamond"
                 },
                 {
-                    "properties": {
-                        "cache_duration": "none"
+                    "cache": {
+                        "duration": "1h"
                     },
                     "leading_diamond": "\ue0b2",
                     "trailing_diamond": "<transparent,#306998>\ue0b2</>",
@@ -440,8 +456,8 @@
                     "style": "diamond"
                 },
                 {
-                    "properties": {
-                        "cache_duration": "none"
+                    "cache": {
+                        "duration": "1h"
                     },
                     "leading_diamond": "\ue0b2",
                     "trailing_diamond": "<transparent,#b9bbbf>\ue0b2</>",
@@ -452,8 +468,8 @@
                     "style": "diamond"
                 },
                 {
-                    "properties": {
-                        "cache_duration": "none"
+                    "cache": {
+                        "duration": "1h"
                     },
                     "leading_diamond": "\ue0b2",
                     "trailing_diamond": "<transparent,#ffffff>\ue0b2</>",
@@ -464,8 +480,8 @@
                     "style": "diamond"
                 },
                 {
-                    "properties": {
-                        "cache_duration": "none"
+                    "cache": {
+                        "duration": "1h"
                     },
                     "leading_diamond": "\ue0b2",
                     "trailing_diamond": "<transparent,#ffffff>\ue0b2</>",
@@ -476,8 +492,8 @@
                     "style": "diamond"
                 },
                 {
-                    "properties": {
-                        "cache_duration": "none"
+                    "cache": {
+                        "duration": "1h"
                     },
                     "leading_diamond": "\ue0b2",
                     "trailing_diamond": "<transparent,#fe562e>\ue0b2</>",
@@ -489,9 +505,11 @@
                 },
                 {
                     "properties": {
-                        "cache_duration": "none",
                         "display_mode": "files",
                         "fetch_version": true
+                    },
+                    "cache": {
+                        "duration": "1h"
                     },
                     "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}",
                     "foreground": "#4063D8",
@@ -500,9 +518,11 @@
                 },
                 {
                     "properties": {
-                        "cache_duration": "none",
                         "display_mode": "files",
                         "fetch_version": true
+                    },
+                    "cache": {
+                        "duration": "1h"
                     },
                     "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}",
                     "foreground": "#DE3F24",
@@ -511,9 +531,11 @@
                 },
                 {
                     "properties": {
-                        "cache_duration": "none",
                         "display_mode": "context",
                         "fetch_virtual_env": false
+                    },
+                    "cache": {
+                        "duration": "1h"
                     },
                     "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}",
                     "foreground": "#FED142",
@@ -527,18 +549,12 @@
             "alignment": "left",
             "segments": [
                 {
-                    "properties": {
-                        "cache_duration": "none"
-                    },
                     "template": " \u2570\u2500",
                     "foreground": "#ffd453",
                     "type": "text",
                     "style": "plain"
                 },
                 {
-                    "properties": {
-                        "cache_duration": "none"
-                    },
                     "template": "\ue285\uf105 ",
                     "foreground": "#ffd453",
                     "type": "text",
