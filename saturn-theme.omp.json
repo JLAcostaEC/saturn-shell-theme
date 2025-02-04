@@ -74,7 +74,7 @@
                         "fetch_upstream_icon": true
                     },
                     "cache": {
-                        "duration": "1h"
+                        "duration": "none"
                     },
                     "leading_diamond": "\ue0b6",
                     "trailing_diamond": "\ue0b4",
@@ -137,7 +137,7 @@
                         "yarn_icon": "<#44FFD2>\uf487 yarn</> "
                     },
                     "cache": {
-                        "duration": "1h"
+                        "duration": "none"
                     },
                     "leading_diamond": " \ue0b6",
                     "trailing_diamond": "\ue0b4 ",
